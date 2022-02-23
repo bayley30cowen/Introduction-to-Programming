@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CollegeTest
+comment0.text=\r\n\ The\ test\ class\ CollegeTest.\ Used\ to\ test\ the\ college\ methods\ and\ \r\n\ constructor\r\n\r\n\ @author\ \ Bayley\ Cowen-Seagrove\r\n\ @version\ 4.1.2\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\ Initialize\ 1\ object\ of\ college\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ ConstructorTest1()
+comment2.text=\r\n\ Test\ the\ contructor\ method.\ Initialize\ 2\ objects\ of\ college\r\n
+comment3.params=
+comment3.target=void\ DescribeTest()
+comment3.text=\r\n\ Tests\ the\ describe\ function\ to\ PASS.\ Needed\ to\ see\ the\ no.\ of\ students\r\n\ and\ no.\ of\ books\r\n\r\n\ Should\ PASS\ and\ describe\ the\ college\ 1\ object\ i.e.\ (20,\ 20)\r\n\ @return\ String\ which\ includes\ no.\ of\ students\ and\ no.\ of\ books.\r\n
+comment4.params=
+comment4.target=void\ runCollege1()
+comment4.text=\r\n\ Tests\ the\ runCollege\ function\ to\ PASS.\ Needed\ to\ ensure\ that\ the\ input\r\n\ of\ steps\ is\ taken\ in\r\n\r\n\ Should\ PASS\ and\ print\ 5\ steps.\r\n\ @return\ String\ 5\ Steps\ each\ followed\ by\ describe\ function\ and\ next\ \r\n\ step\r\n
+comment5.params=
+comment5.target=void\ runCollege2()
+comment5.text=\r\n\ Tests\ the\ runCollege\ function\ to\ FAIL.\ Needed\ to\ ensure\ that\ the\ input\r\n\ of\ steps\ is\ taken\ in\ and\ that\ is\ recognised\ as\ invalid\r\n\r\n\ Should\ FAIL\ and\ return\ an\ error\r\n\ @return\ error,\ as\ college\ 2\ has\ 0\ students\ and\ 0\ books,\ which\ is\r\n\ invalid\ for\ the\ nextStep\ function.\r\n
+comment6.params=
+comment6.target=void\ runCollege3()
+comment6.text=\r\n\ Tests\ the\ runCollege\ function\ to\ FAIL.\ Needed\ to\ ensure\ that\ the\ input\r\n\ of\ steps\ is\ taken\ in\ and\ that\ is\ recognised\ as\ invalid\r\n\r\n\ Should\ FAIL\ and\ return\ an\ error\r\n\ @return\ error,\ as\ number\ of\ steps\ taken\ is\ less\ than\ 1,\ which\ is\ an\r\n\ invalid\ input\r\n
+numComments=7

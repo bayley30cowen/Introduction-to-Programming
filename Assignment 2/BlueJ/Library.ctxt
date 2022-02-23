@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Library
+comment0.text=\r\n\ The\ Libary\ Class\ represents\ a\ library\ object,\ where\ textbooks\ will\ be\ \r\n\ stored\ for\ students\ to\ borrow.\ This\ is\ used\ so\ that\ students\ can\ borrow\ \r\n\ textbooks\ and\ return\ books.\r\n\r\n\ @author\ Bayley\ Cowen-Seagrove\r\n\ @version\ 4.1.2\r\n
+comment1.params=numOfBooks
+comment1.target=Library(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Library,\ used\ to\ initialize\ Library\r\n\ objects.\r\n\ \r\n\ @param\ numOfBooks\ Integer\ used\ to\ represent\ the\ number\ of\ books\ in\r\n\ the\ college\ library.\r\n
+comment2.params=
+comment2.target=LibraryCard\ issueCard()
+comment2.text=\r\n\ issueCard\ method\ that\ returns\ a\ library\ card\ object,\ that\ issues\ a\ \r\n\ new\ card.\ This\ isneeded\ as\ students\ need\ a\ library\ card\ to\ borrow\ \r\n\ books.\r\n\ \r\n\ @return\ aCard\ LibraryCard\ new\ library\ card\ for\ student.\r\n
+comment3.params=card
+comment3.target=TextBook\ borrowBook(LibraryCard)
+comment3.text=\r\n\ borrowBook\ method\ that\ returns\ a\ textbook\ object,\ that\ allows\ for\ a\ \r\n\ textbook\ to\ be\ borrowed.\ The\ method\ checks\ that\ the\ student's\ card\ is\ \r\n\ active\ (not\ expired)\ and\ that\ the\ shelf\ is\ not\ empty.\ If\ these\ are\ \r\n\ true,\ the\ student\ can\ borrow\ the\ book.\r\n\ \r\n\ @param\ card\ LibraryCard\ This\ is\ needed\ as\ students\ need\ a\ library\ \r\n\ card\ to\ borrow\ books.\r\n\ @return\ book\ Textbook\ the\ book\ being\ borrowed.\r\n
+comment4.params=book
+comment4.target=void\ returnBook(TextBook)
+comment4.text=\r\n\ returnBook\ method\ that\ returns\ a\ textbook\ object,\ that\ allows\ for\ a\ \r\n\ textbookto\ be\ returned\ to\ the\ shelf.\ \r\n\ \r\n\ @param\ book\ TextBook\ The\ book\ being\ returned\ to\ the\ shelf\r\n
+comment5.params=
+comment5.target=void\ describe()
+comment5.text=\r\n\ Describe\ method\ that\ represents\ the\ library\ in\ terms\ of\ number\ of\ \r\n\ books\ on\ the\ shelf,\ and\ number\ of\ library\ cards\ issued.\r\n\ \r\n\ @return\ String\ stating\ number\ of\ books\ on\ the\ shelf\ and\ library\ cards\ \r\n\ issued.\r\n
+numComments=6

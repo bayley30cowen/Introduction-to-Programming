@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=StudentTest
+comment0.text=\r\n\ The\ test\ class\ StudentTest.\ Used\ to\ test\ the\ Student\ methods\ and\ \r\n\ constructor\r\n\ \r\n\ @author\ \ Bayley\ Cowen-Seagrove\r\n\ @version\ 4.1.2\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\ Initialize\ 2\ objects\ of\ student\ and\ 1\ or\r\n\ library.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ ConstructorTest1()
+comment2.text=\r\n\ Test\ the\ contructor\ method.\ Initialize\ 1\ objects\ of\ library\ \r\n\ and\ 1\ object\ of\ student\r\n
+comment3.params=
+comment3.target=void\ DescribeTest1()
+comment3.text=\r\n\ Tests\ the\ describe\ function\ to\ PASS.\ Needed\ to\ see\ the\ student's\ name\r\n\ and\ whether\ they\ have\ a\ book\r\n\r\n\ Should\ PASS\ but\ return\ that\ student\ does\ not\ have\ a\ textbook\r\n\ @return\ String\ which\ includes\ name\ of\ student,\ and\ that\ they\ have\ no\r\n\ textbook\r\n
+comment4.params=
+comment4.target=void\ DescribeTest2()
+comment4.text=\r\n\ Tests\ the\ describe\ function\ to\ PASS.\ Needed\ to\ see\ the\ student's\ name\r\n\ and\ whether\ they\ have\ a\ book\r\n\r\n\ Should\ PASS\ and\ return\ that\ student\ does\ have\ a\ textbook\r\n\ @return\ String\ which\ includes\ name\ of\ student,\ and\ that\ they\ have\ a\r\n\ textbook\r\n
+comment5.params=
+comment5.target=void\ StudyTest1()
+comment5.text=\r\n\ Tests\ the\ study\ function\ to\ PASS.\ Needed\ to\ see\ that\ a\ student\ \r\n\ previously\ without\ a\ book\ is\ given\ a\ book\r\n\r\n\ Should\ PASS\r\n\ @return\ String\ which\ includes\ name\ of\ student,\ and\ that\ they\ dont\ \r\n\ have\ a\ textbook,\ follwed\ by\ them\ having\ a\ textbook.\r\n\ \r\n
+comment6.params=
+comment6.target=void\ StudyTest2()
+comment6.text=\r\n\ Tests\ the\ study\ function\ to\ PASS.\ Needed\ to\ see\ that\ a\ student\ \r\n\ previously\ with\ a\ book\ is\ able\ to\ study\ and\ work\ through\ a\ book\r\n\r\n\ Should\ PASS\r\n\ @return\ String\ which\ includes\ name\ of\ student,\ and\ that\ they\ have\r\n\ progressed\ through\ the\ book.\r\n\ \r\n
+comment7.params=
+comment7.target=void\ StudyTest3()
+comment7.text=\r\n\ Tests\ the\ study\ function\ to\ PASS.\ Needed\ to\ see\ that\ a\ student\ \r\n\ who\ has\ finished\ a\ book\ has\ been\ recognsied.\r\n\r\n\ Should\ PASS\r\n\ @return\ String\ which\ includes\ name\ of\ student,\ and\ the\ loop\ of\ them\r\n\ studying\ through\ a\ book.\ Once\ the\ book\ is\ completed,\ a\ string\ tells\ \r\n\ the\ user\ that\ the\ student\ has\ finished\ the\ book,\ and\ no\ longer\ has\ a\r\n\ book,\ until\ they\ begin\ studying\ again.\r\n\ \r\n
+numComments=8

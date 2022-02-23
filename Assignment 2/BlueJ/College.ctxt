@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=College
+comment0.text=\r\n\ The\ College\ Class\ represents\ a\ college\ object,\ where\ a\ list\ of\ students\r\n\ will\ attend\ and\ a\ library\ object\ within\ the\ college.\ This\ is\ used\ so\ that\r\n\ the\ student\ objects\ can\ attend\ a\ college.\r\n\ \r\n\ @author\ Bayley\ Cowen-Seagrove\r\n\ @version\ 4.1.2\r\n
+comment1.params=numberOfStudents\ numberOfTextbooks
+comment1.target=College(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ College,\ used\ to\ initialize\ College\r\n\ objects.\r\n\ \r\n\ @param\ numberOfStudents\ integer\ to\ represent\ the\ number\ \r\n\ of\ students\ in\ the\ college.\r\n\ @param\ numberOfTextbooks\ integer\ to\ represent\ the\ number\ of\ textbook\ \r\n\ in\ the\ college\ library\r\n\ \r\n
+comment2.params=
+comment2.target=void\ describe()
+comment2.text=\r\n\ Describe\ method\ that\ represents\ the\ college\ in\ terms\ of\ number\ of\ \r\n\ students,\ number\ of\ textbooks\ available\ in\ the\ library.\r\n\ \r\n\ @return\ String\ stating\ number\ of\ students\ and\ textbooks\ in\ college\r\n
+comment3.params=
+comment3.target=void\ nextStep()
+comment3.text=\r\n\ nextStep\ method\ checks\ if\ the\ college\ has\ students\ and\ if\ this\ is\ true,\ \r\n\ chooses\ student\ from\ the\ list\ at\ random.\ If\ they\ have\ not\ finished\ \r\n\ their\ studies,\ then\ the\ method\ will\ call\ for\ the\ student\ to\ study()\ \r\n\ If\ the\ random\ student\ has\ finished\ their\ studies\ the\ method\ \r\n\ prints\ a\ statement\ saying\ they\ have\ graduated,\ and\ removes\ them\ from\ \r\n\ the\ list\ of\ students.\ If\ no\ students\ are\ present\ at\ the\ college,\ a\ \r\n\ string\ notifiying\ the\ user\ is\ printed.\r\n\ \r\n\ @return\ String\ If\ there\ are\ no\ students\ at\ the\ college,\ the\ user\ is\ \r\n\ notified\ by\ the\ printed\ string,\ or\ if\ the\ student\ has\ finished\ \r\n\ their\ studies,\ the\ user\ will\ be\ notified\ that\ they\ have\ finished\r\n\ their\ studies,\ so\ that\ they\ can\ be\ removed.\r\n\ \r\n
+comment4.params=nSteps
+comment4.target=void\ runCollege(int)
+comment4.text=\r\n\ runCollege\ method\ takes\ input\ of\ number\ of\ steps\ from\ the\ user,\ \r\n\ then\ runs\ the\ describe\ and\ nextStep()\ methods\ that\ many\ times\ \r\n\ returning\ the\ currentStep\ to\ the\ user.\r\n\ \r\n\ @param\ nSteps\ integer\ user\ input\ to\ specify\ the\ number\ of\ times\ \r\n\ method\ is\ run\r\n\ \r\n\ @return\ String\ the\ currentStep.\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ Main\ method\ to\ allow\ class\ to\ be\ run\ from\ command\ line\r\n\ \r\n\ @param\ args\ array\ of\ strings\ used\ to\ allow\ parameter\ values\ \r\n\ to\ be\ passed\ to\ the\ program\r\n
+numComments=6

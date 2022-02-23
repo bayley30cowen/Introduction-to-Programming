@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=LibraryCard
+comment0.text=\r\n\ The\ Library\ Card\ Class\ represents\ a\ library\ card\ object,\ where\ a\ \r\n\ library\ card\ will\ have\ an\ id\ number\ and\ maximum\ number\ of\ borrows.\ This\ \r\n\ object\ is\ needed\ to\ enable\ a\ student\ to\ borrow\ a\ textbook.\r\n\r\n\ Bayley\ Cowen-Seagrove\r\n\ 4.1.2\ ver\ 1\r\n
+comment1.params=idNum\ maxNum
+comment1.target=LibraryCard(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ LibraryCard,\ used\ to\ initialize\ \r\n\ Library\ card\ objects.\ This\ sets\ the\ limit\ on\ borrows,\ and\ gives\r\n\ the\ card\ an\ id\ number.\ Also\ sets\ the\ number\ of\ books\ borrowed\ to\ 0\r\n\ as\ the\ card\ will\ be\ brand\ new.\r\n\ \r\n\ @param\ idNum\ Integer\ id\ number\ of\ the\ library\ card.\r\n\ @param\ maxNum\ Integer\ Limit\ on\ the\ number\ of\ borrows\ the\ card\ can\ do\r\n\ before\ expire.\r\n
+comment2.params=
+comment2.target=void\ swipe()
+comment2.text=\r\n\ swipe\ method\ increases\ the\ number\ of\ books\ borrowed\ by\ the\ student.\ \r\n\ This\ is\ needed\ to\ calculate\ when\ the\ card\ would\ expire,\ i.e.\ when\r\n\ the\ limit\ is\ reached.\r\n
+comment3.params=
+comment3.target=boolean\ expired()
+comment3.text=\r\n\ expired\ method\ checks\ whether\ the\ card\ has\ expired\ by\ comparing\ the\r\n\ limit\ on\ the\ card,\ to\ the\ number\ of\ books\ borrowed\ on\ that\ card.\ \r\n\ \r\n\ @return\ Boolean\ If\ the\ limit\ has\ been\ reached,\ the\ card\ has\ expired\r\n\ so\ will\ return\ True,\ else\ will\ return\ false.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getCardRef()
+comment4.text=\r\n\ getCardRef\ method\ gets\ the\ card\ reference\ number.\ This\ is\ needed\ in\ \r\n\ the\ describe\ method.\r\n\ \r\n\ @return\ String\ the\ card\ reference\ number\ which\ is\ initailized\ in\ the\ \r\n\ constructor.\r\n
+comment5.params=
+comment5.target=void\ describe()
+comment5.text=\r\n\ Describe\ method\ that\ represents\ the\ library\ card\ in\ terms\ of\ its\ \r\n\ card\ refernce,\ and\ the\ remaining\ borrowing\ allowance.\ This\ is\ helpful\r\n\ as\ the\ students\ can\ check\ how\ many\ borrows\ they\ have\ remaining\r\n\ on\ their\ card.\r\n\ \r\n\ @return\ String\ stating\ the\ library\ cards\ reference\ number\ and\ the\r\n\ remaining\ borrowd\r\n
+numComments=6

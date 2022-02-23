@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TextBook
+comment0.text=\r\n\ TextBook\ class\ \r\n\r\n\ Bayley\ Cowen-Seagrove\r\n\ 4.1.2\ ver\ 1\r\n
+comment1.params=title\ num
+comment1.target=TextBook(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getTitle()
+comment3.params=
+comment3.target=void\ readNextChapter()
+comment4.params=
+comment4.target=boolean\ isFinished()
+comment5.params=
+comment5.target=void\ closeBook()
+comment6.params=
+comment6.target=void\ describe()
+numComments=7

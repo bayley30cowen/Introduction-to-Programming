@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TextBook
+comment0.text=\r\n\ The\ Textbook\ Class\ represents\ a\ textbook\ object,\ where\ textbooks\ will\ have\ \r\n\ a\ set\ number\ of\ chapters,\ that\ the\ students\ can\ read.\ This\ is\ needed\ for\r\n\ when\ the\ student\ studies.\r\n\r\n\ Bayley\ Cowen-Seagrove\r\n\ 4.1.2\ ver\ 1\r\n
+comment1.params=t\ n
+comment1.target=TextBook(java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Textbook,\ used\ to\ initialize\ Textbook\r\n\ objects.\ Sets\ the\ title,\ number\ of\ chapters\ for\ a\ textbook,\ and\ sets\r\n\ the\ chapters\ read\ to\ 0.\r\n\ \r\n\ @param\ t\ String\ Title\ of\ the\ textbook\r\n\ @param\ n\ Integer\ to\ represent\ the\ number\ of\ chapter\r\n
+comment2.params=
+comment2.target=java.lang.String\ getTitle()
+comment2.text=\r\n\ getTitle\ method\ gets\ the\ title\ of\ a\ textbook.\ This\ is\ useful\ as\ it\ is\r\n\ needed\ in\ the\ describe\ method.\r\n\ \r\n\ @return\ title\ String\ which\ is\ the\ title\ of\ the\ textbook.\r\n
+comment3.params=
+comment3.target=void\ readNextChapter()
+comment3.text=\r\n\ readNextChapter\ checks\ whether\ the\ textbook\ is\ finished,\ else\ \r\n\ increments\ the\ number\ of\ chapters\ read\ by\ 1.\ This\ is\ used\ by\ students\r\n\ when\ studying\ to\ enable\ them\ to\ work\ through\ a\ textbook.\r\n\ \r\n\ \r\n\ @return\ String\ User\ is\ notified\ that\ if\ all\ chapters\ have\ been\ read\r\n\ that\ the\ textbook\ is\ finished.\r\n
+comment4.params=
+comment4.target=boolean\ isFinished()
+comment4.text=\r\n\ isFinished\ method\ checks\ whether\ the\ student\ has\ read\ all\ of\ the\ \r\n\ chapters.\ This\ is\ used\ to\ check\ whether\ the\ student\ should\ keep\ \r\n\ reading\ in\ readNextChapter.\r\n\ \r\n\ @return\ Boolean\ Returns\ true\ if\ all\ chapters\ have\ been\ read,\ else\ \r\n\ returns\ false\r\n
+comment5.params=
+comment5.target=void\ closeBook()
+comment5.text=\r\n\ closeBook\ method\ sets\ the\ chaptersRead\ back\ to\ 0.\ This\ means\ that\ the\r\n\ book\ has\ been\ read,\ and\ can\ be\ returned.\r\n\ \r\n\ \r\n
+comment6.params=
+comment6.target=void\ describe()
+comment6.text=\r\n\ Describe\ method\ that\ represents\ the\ textbook\ in\ terms\ of\ its\ title,\ \r\n\ with\ the\ number\ of\ chapter\ left\ to\ be\ read.\ This\ is\ helpful\ to\ see\r\n\ how\ much\ a\ textbook\ has\ left\ before\ being\ finished.\r\n\ \r\n\ @return\ String\ stating\ the\ textbooks\ title\ and\ the\ number\ of\ remaining\r\n\ chapters\ to\ read.\r\n
+numComments=7

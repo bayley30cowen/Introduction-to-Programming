@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ The\ Student\ Class\ represents\ a\ student\ object,\ where\ the\ student\ will\ \r\n\ be\ able\ to\ take\ out\ textbooks,\ study\ and\ return\ books.The\ student\ object\ \r\n\ will\ attend\ a\ college,\ and\ will\ interact\ with\ textbooks,\ library\ cards\ \r\n\ and\ the\ library.\r\n\ \r\n\ @author\ Bayley\ Cowen-Seagrove\r\n\ @version\ 4.1.2\r\n
+comment1.params=name\ library
+comment1.target=Student(java.lang.String,\ Library)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Student,\ used\ to\ initialize\ College\r\n\ objects.\r\n\ \r\n\ @param\ name\ String\ to\ represent\ the\ name\ of\ the\ student\r\n\ @param\ library\ String\ to\ represent\ the\ library\ the\ student\ is\ \r\n\ attending\r\n
+comment2.params=
+comment2.target=boolean\ finishedStudies()
+comment2.text=\r\n\ finishedStudies\ method\ that\ checks\ if\ the\ students\ library\ card\ is\ \r\n\ active\ (not\ expired),\ and\ if\ so,\ will\ check\ if\ the\ student\ has\ \r\n\ finished\ studying\ i.e.\ has\ no\ textbook.\r\n\ \r\n\ @return\ Boolean\ Will\ return\ a\ true\ if\ the\ student\ has\ finished\ \r\n\ studying,\ or\ false\ ifthey\ haven't.\r\n
+comment3.params=
+comment3.target=void\ study()
+comment3.text=\r\n\ Study\ method\ checks\ if\ student\ has\ a\ textbook\ and\ if\ it\ is\ finished\r\n\ if\ they\ dont\ have\ a\ textbook,\ makes\ the\ student\ borrow\ one\ from\ the\ \r\n\ library,\ if\ they\ have\ a\ textbook\ and\ it\ is\ not\ finished,\ makes\ the\ \r\n\ student\ read\ the\ next\ chapter\ of\ the\ textbook\r\n\ if\ they\ have\ a\ textbook\ and\ it\ is\ finished,\ \r\n\ makes\ the\ student\ close\ the\ book\ and\ return\ it\ to\ the\ library,\ \r\n\ then\ borrow\ a\ new\ book\r\n
+comment4.params=
+comment4.target=void\ describe()
+comment4.text=\r\n\ Describe\ method\ that\ represents\ the\ student\ in\ terms\ of\ their\ name,\ \r\n\ and\ whether\ they\ have\ a\ book.\r\n\ \r\n\ @return\ String\ stating\ the\ students\ name\ and\ whether\ they\ have\ a\ book\ \r\n\ currently\ being\ borrowed\r\n
+numComments=5
